@@ -1,0 +1,16 @@
+print('\n')
+print('*** Fichero original:')
+f_read = open(r'obj8 - ficheros\fase2 - escritura\prueba.txt','r')
+texto = f_read.read()
+print(texto)
+f_read.close()
+
+f_write = open(r'obj8 - ficheros\fase2 - escritura\prueba.txt','a')
+f_write.write('info@timeofsoftwarer.com\n')
+f_write.close()
+
+print('*** Fichero modificado:')
+f_read = open(r'obj8 - ficheros\fase2 - escritura\prueba.txt','r')
+texto = f_read.read()
+print(texto)
+f_read.close()

@@ -1,0 +1,6 @@
+f = open(r'obj8 - ficheros\fase1 - lectura\prueba_.txt','r')
+print(f.readline())
+print(f.readline())
+print(f.readline())
+print(f.readline())
+f.close()
