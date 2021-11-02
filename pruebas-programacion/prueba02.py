@@ -1,5 +1,5 @@
 # que el usuario ingrese su nombre y edad
-# el sofwtare le muestre en qu� a�o cumplir� 100 a�os
+# el sofwtare le muestre en quï¿½ aï¿½o cumplirï¿½ 100 aï¿½os
 
 nombre = input('Ingrese su nombre: ')
 edad = int(input('Ingrese su edad: '))
