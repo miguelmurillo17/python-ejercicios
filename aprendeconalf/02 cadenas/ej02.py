@@ -6,8 +6,8 @@
 # mayúsculas y minúsculas como quiera.
 
 nombre = input('Cuál es su nombre completo?: ')
-nombre_camel = ''
-palabras_nombre = nombre.split()
+#nombre_camel = ''
+#palabras_nombre = nombre.split()
 #for palabra in palabras_nombre:
 #    nombre_camel = nombre_camel + palabra.capitalize() + ' '
 print(nombre.lower())
